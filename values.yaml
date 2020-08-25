@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: krish6654/web:1.0  
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
